@@ -1,0 +1,145 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100vh;
+}
+
+
+.wrap {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+
+.panel-left {
+  width: 51.8%;
+  background: linear-gradient(
+    90deg,
+    rgba(0,0,0,0.98) 0%,
+    rgba(0,0,0,0.94) 40%,
+    rgba(0,0,0,0.88) 70%,
+    rgba(0,0,0,0.82) 100%
+  );
+  padding: 28px 44px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.panel-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 72px;
+}
+
+.ferrari-logo {
+  font-size: 26px;
+}
+
+.close-btn {
+  font-size: 18px;
+  opacity: 0.85;
+}
+
+
+.menu-area {
+  display: flex;
+  gap: 136px;
+}
+
+.menu-col {
+  min-width: 240px;
+}
+
+.menu-label {
+  font-size: 12px;
+  letter-spacing: 2.1px;
+  color: #9c9c9c;
+  margin-bottom: 30px;
+}
+
+
+.menu-col ul {
+  list-style: none;
+}
+
+.menu-col li {
+  font-size: 18px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-col li span {
+  opacity: 0.7;
+}
+
+
+.active {
+  font-weight: 600;
+}
+
+.inactive {
+  opacity: 0.38;
+}
+
+.secondary li {
+  font-size: 17px;
+}
+
+.expand span {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+
+.panel-right {
+  width: 48.2%;
+  position: relative;
+}
+
+.panel-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.hero-copy {
+  position: absolute;
+  bottom: 62px;
+  left: 62px;
+}
+
+.hero-copy h1 {
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: 1.9px;
+  line-height: 1.12;
+  margin-bottom: 18px;
+}
+
+.hero-link {
+  font-size: 13px;
+  letter-spacing: 1.55px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-link span {
+  font-size: 20px;
+}
