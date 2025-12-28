@@ -1,5 +1,6 @@
 
-* {
+*{    
+  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -37,7 +38,7 @@ body {
 
 header {
     position: absolute;
-    top: 30px;
+    top: 15px;
     left: 60px;
     display: flex;
     align-items: center;
@@ -45,9 +46,6 @@ header {
     color: #fff;
 }
 
-.logo {
-    font-size: 26px;
-}
 
 nav a {
     color: #fff;
@@ -114,7 +112,8 @@ nav a {
 }
 
 .discover .circle {
-    width: 40px;          /* NOT 42 */
+    
+    width: 40px;        
     height: 40px;
     border: 1.5px solid #fff;
     border-radius: 50%;
@@ -127,8 +126,8 @@ nav a {
 
 
 .discover:hover .circle {
-    background: #fff;
-    color: #000;
+    border-color: red;
+    color: red;
 }
 
 
@@ -148,4 +147,10 @@ nav a {
 
 .dots .active {
     background: red;
-}
+}   
+
+
+
+
+
+
